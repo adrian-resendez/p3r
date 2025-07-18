@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
-
-const API_BASE = "http://localhost:8000";
+import { loadCharacters, loadAnswersForCharacter } from "./utils";
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -10,14 +9,10 @@ function App() {
   const [answers, setAnswers] = useState([]);
   const [loadingAnswers, setLoadingAnswers] = useState(false);
   const [error, setError] = useState(null);
-  const [sortOption, setSortOption] = useState(""); // NEW
+  const [sortOption, setSortOption] = useState("");
 
   useEffect(() => {
-    fetch(`${API_BASE}/characters`)
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to load characters");
-        return res.json();
-      })
+    loadCharacters()
       .then(setCharacters)
       .catch((err) => {
         console.error(err);
@@ -37,14 +32,7 @@ function App() {
     setLoadingAnswers(true);
     setError(null);
 
-    fetch(`${API_BASE}/answers?character=${encodeURIComponent(charName)}`)
-      .then((res) => {
-        if (!res.ok) {
-          if (res.status === 404) throw new Error("No answers found.");
-          else throw new Error("Failed to fetch answers.");
-        }
-        return res.json();
-      })
+    loadAnswersForCharacter(charName)
       .then((data) => {
         setAnswers(data);
         setLoadingAnswers(false);
@@ -61,7 +49,7 @@ function App() {
     } else if (sortOption === "arcana") {
       return a.arcana.localeCompare(b.arcana);
     }
-    return 0; // default: no sorting
+    return 0;
   });
 
   return (
