@@ -5,10 +5,14 @@ import csv
 
 app = FastAPI()
 
-# CORS middleware setup - allow localhost:3000 for frontend
+# Allow both localhost for development and GitHub Pages domain for production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Adjust as needed for deployment
+    allow_origins=[
+        "http://localhost:3000",                  # for local dev
+        "https://adrian-resendez.github.io/p3r",         # replace with your actual GitHub Pages URL
+        # optionally add other domains if needed
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -22,7 +26,7 @@ with open("characters.json", encoding="utf-8") as f:
 answers = []
 with open("social_link_answers.csv", encoding="utf-8") as f:
     reader = csv.DictReader(f)
-    answers = list(reader)  # list() for slightly cleaner syntax
+    answers = list(reader)
 
 @app.get("/characters")
 def get_characters():
@@ -30,7 +34,6 @@ def get_characters():
 
 @app.get("/answers")
 def get_answers(character: str = Query(..., description="Character name to search")):
-    # Case-insensitive substring search on the "Social Link" field
     lower_char = character.lower().strip()
     filtered = [a for a in answers if lower_char in a["Social Link"].lower()]
     
