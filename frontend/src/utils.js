@@ -1,3 +1,6 @@
+import Papa from "papaparse";
+
+
 export async function loadCharacters() {
     const url = process.env.PUBLIC_URL + "/characters.json";
     console.log("Fetching characters from:", url);

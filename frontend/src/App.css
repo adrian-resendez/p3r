@@ -209,6 +209,51 @@ button:hover {
   align-items: center;
 }
 
+.header-message {
+  margin-top: 4px;
+  font-style: italic;
+  font-size: 1rem;
+  color: #00e0ff;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-shadow:
+    0 0 5px #00e0ff,
+    0 0 10px #00e0ff,
+    0 0 20px #00f7ff,
+    0 0 30px #00f7ff,
+    0 0 40px #00d0ff;
+  
+  background: linear-gradient(270deg, #00c3ff, #00f7ff, #0096ff, #00c3ff);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: coolGradient 8s ease infinite;
+  
+  filter: drop-shadow(0 0 6px #00f7ff);
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+.header-message:hover {
+  animation-play-state: paused;
+  filter: drop-shadow(0 0 12px #00ffff);
+  color: #00ffff;
+  -webkit-text-fill-color: #00ffff; /* fallback */
+}
+
+@keyframes coolGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
 .sort-select {
   padding: 6px 10px;
   border-radius: 6px;

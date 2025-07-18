@@ -55,7 +55,14 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>🎴 Persona 3 Social Links Guide</h1>
+        <div className="header-title-message">
+          <h1>🎴 Persona 3 Social Links Guide</h1>
+          <p className="header-message">
+  Hope this helps a little and you enjoy the game pumpkin, with love: your monkey! ❤️
+</p>
+
+        </div>
+
         <div className="header-controls">
           <button onClick={() => setShowArcana((prev) => !prev)}>
             {showArcana ? "Hide Arcana" : "Show Arcana"}
