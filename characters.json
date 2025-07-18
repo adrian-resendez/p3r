@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Protagonist and S.E.E.S.",
+      "arcana": "Fool",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-protagonist-1706853422269.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Kenji Tomochika",
+      "arcana": "Magician",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-kenji-1706853422266.png?width=1400&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Fuuka Yamagishi",
+      "arcana": "Priestess",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-fuuka-1706853422262.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Mitsuru Kirijo",
+      "arcana": "Empress",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-mitsuru-1706853422267.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Hidetoshi Odagiri",
+      "arcana": "Emperor",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-hidetoshi-1706853422263.png?width=600&format=jpg&auto=webp&quality=80"
+    },
+    {
+        "name": "Mitsuko and Bunkichi",
+        "arcana": "Hierophant",
+        "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-mitsuko-1706853422267.png?width=1400&format=jpg&auto=webp&quality=80"
+      },
+      
+    {
+      "name": "Yukari Takeba",
+      "arcana": "Lovers",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-yukari-1706853422271.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Kazushi Miyamoto",
+      "arcana": "Chariot",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-kazushi-1706853422264.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Chihiro Fushimi",
+      "arcana": "Justice",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-chihiro-1706853422261.png?width=600&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Maya",
+      "arcana": "Hermit",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-maya-1706853422267.png?width=600&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Keisuke Hiraga",
+      "arcana": "Fortune",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-keisuke-1706853422265.png?width=600&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Yuko Nishiwaki",
+      "arcana": "Strength",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-yuko-1706853422271.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Maiko Ooashi",
+      "arcana": "Hanged",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-maiko-1706853422266.png?width=600&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Pharos",
+      "arcana": "Death",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-pharos-1706853422268.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Bebe",
+      "arcana": "Temperance",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-bebe-1706853422246.png?width=600&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "President Tanaka",
+      "arcana": "Devil",
+      "image_url": "https://assets-prd.ignimgs.com/2024/05/19/president-tanaka-devil-1716083467799.png?crop=1%3A1%2Csmart&width=256&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Mutatsu",
+      "arcana": "Tower",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-mutatsu-1706853422268.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Mamoru Hayase",
+      "arcana": "Star",
+      "image_url": "https://images.rpgsite.net/articles/thumbnail/da49c9a1/15404/original/mamoru-s-link.jpg"
+    },
+    {
+      "name": "Nozomi Suemitsu",
+      "arcana": "Moon",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-nozomi-1706853422268.png?width=1000&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Akinari Kamiki",
+      "arcana": "Sun",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-akinari-1706853422245.png?width=600&format=jpg&auto=webp&quality=80"
+    },
+    {
+      "name": "Nyx Annihilation Team",
+      "arcana": "Judgement",
+      "image_url": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2025/06/persona-3-portable-social-links.jpg?q=70&fit=crop&w=750&h=422&dpr=1"
+    },
+    {
+      "name": "Aigis",
+      "arcana": "Aeon",
+      "image_url": "https://assets-prd.ignimgs.com/2024/02/02/p3r-aigis-1706853422243.png?width=1000&format=jpg&auto=webp&quality=80"
+    }
+  ]
+  
