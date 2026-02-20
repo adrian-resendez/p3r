@@ -58,7 +58,7 @@ function App() {
         <div className="header-title-message">
           <h1>🎴 Persona 3 Social Links Guide</h1>
           <p className="header-message">
-  Hope this helps a little and you enjoy the game pumpkin, with love: your monkey! ❤️
+  {/* Hope this helps a little and you enjoy the game pumpkin, with love: your monkey! ❤️ */}
 </p>
 
         </div>
